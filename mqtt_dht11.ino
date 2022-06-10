@@ -23,12 +23,12 @@ DHT dht(DHTPIN, DHTTYPE);
 
 
 // Change the credentials below, so your ESP8266 connects to your WiFi router
-const char* ssid = "IoT";
-const char* password = "1234567890";
+const char* ssid = "";
+const char* password = "";
 
 // Change the variable to your IP address, so it connects to your MQTT broker.
 //get IP address on your raspberryPi or localhost machine
-const char* mqtt_server = "10.100.142.74";
+const char* mqtt_server = "xx.xxx.xxx.xx";
 
 
 //Authetication to MQTT if available
